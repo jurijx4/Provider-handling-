@@ -1,0 +1,43 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .side-bar {
+    width: 12%;
+    overflow: hidden;
+  }
+  mat-drawer-container {
+    height: 100%;
+  }
+  
+  mat-drawer {
+    background: #E9EAF1;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .version-div{
+    bottom: 0;
+  }
+  .wallet{
+    right: 0%;
+    bottom: 2%;
+    position: absolute;
+    z-index: 1000;
+    width: 5%;
+    position: fixed;
+    }
+  
+  .user{
+    position: absolute;
+    right: 0%;
+    top:2%;
+    width: 5%;
+    position: fixed;
+    z-index: 1000;
+  }
+  .background{
+    background-image: url('../assets/background.png');
+  }
